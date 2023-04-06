@@ -21,3 +21,6 @@
 # "Nice! You were born in approximately 2013."
 
 p "How old are you?"
+input = gets.to_i
+year = 2023 - input
+p "Nice! You were born in approximately " + year.to_s
